@@ -1,0 +1,49 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #d9afd9;
+  background-image: linear-gradient(0deg, #f3f3f3 0%, #cae7eb 100%);
+}
+
+.divv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #aba9a900;
+  height: 420px;
+  width: 800px;
+  border: 2px solid #c2c1c1;
+  border-radius: 20px; /* Optional: Rounded corners for the container */
+}
+
+.login-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: #d4ecf6e4;
+  border-radius: 10px 0 0 10px; /* Rounded corners on the left side */
+  width: 380px; /* Set a fixed width */
+  height: 400px;
+}
+
+.video-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px; /* Match the width of the login frame */
+  border-radius: 0 10px 10px 0; /* Rounded corners on the right side */
+  overflow: hidden; 
+  height: 370 px;/* Ensure video does not overflow the rounded corners */
+}
+
+video {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}

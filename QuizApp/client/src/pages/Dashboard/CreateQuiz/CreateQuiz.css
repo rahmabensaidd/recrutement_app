@@ -1,0 +1,60 @@
+/* Ensure the row takes full width and displays flex items properly */
+.rhDash .row {
+  display: flex;
+  width: 100%;
+}
+
+/* Ensure columns take full width */
+.rhDash .col {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  flex-direction: column; /* Align items vertically */
+}
+
+/* Margins for form elements */
+.mb-3, .mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* Style for form labels */
+.form-label {
+  font-weight: bold;
+}
+
+/* Ensure form controls take full width */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Style for checkbox input */
+.form-check-input {
+  margin-right: 10px;
+}
+
+/* Margin for buttons */
+.btn {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* Center and style the scrollable content */
+.scrollable-contentt {
+  padding: 10px;
+  width: 80%;
+  max-height: 80vh; /* Restrict height to prevent overflow */
+  background: linear-gradient(30deg, #f9dee0, #efdac8bb, #0094f000, #a3d0fc);
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+.btn-custom {
+  width: 200px; /* Set the width */
+  text-align: center; /* Align text inside button */
+  margin-right: 0; /* Ensure no margin is applied on the right */
+  margin-left: 0; /* Ensure no margin is applied on the left */
+  padding: 5px 0; /* Adjust padding as needed */
+}

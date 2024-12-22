@@ -1,0 +1,171 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  overflow-x: hidden; 
+}
+
+.rhDash {
+  display: flex;
+  color: white;
+  background: linear-gradient(120deg, #2871ad, #2871adb3, #2871ad68, #eef2f6a8);
+  text-shadow: 1px 0px 2px #8dc4f0;
+  min-height: 100vh;
+  overflow: hidden; /* Prevent horizontal scrolling */
+  
+}
+.butoo{  /* Change this to the color you want */
+  color: rgb(223, 69, 13);
+  padding: 7px;
+  background-color: #95c8f1b5;
+  border-radius:6px;
+  height: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-left: 123px;
+margin-top: 18px;
+
+  border: #0aac0f;
+  position: relative;
+ right:0;
+ bottom: 0;
+}
+.button {
+  background-color: #739ac44e; /* Change this to the color you want */
+  color: rgb(12, 94, 187);
+
+  border-radius:60%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  position: absolute;
+  top: -1; /* Position the button above the photo */
+  right: -1
+  ;
+  width:29%;
+  height: 60%;
+  
+}
+.button:hover{
+  background-color: #749cc68b; /* Change this to the color you want */
+  color: rgb(12, 94, 187);
+  padding: 10px;
+  border-radius:50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  position: absolute;
+  top: -1; /* Position the button above the photo */
+  right: -1
+  ;
+  width:29%;
+  height: 60%;
+  
+}
+.container-fluid {
+  color: #ffffff;
+  background: linear-gradient(120deg, #2871ad, #2871adb3, #2871ad68, #eef2f6a8);
+  padding: 20px;
+
+}
+
+.col {
+  background-color: #f7f7f79d;
+  border-radius: 10px;
+  margin: 30px;
+  margin-top: 40px;
+  padding: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.table-container {
+  background-color: #eaedf0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thead {
+  background-color: #f1f1f1;
+}
+
+.table thead th {
+  color: #333;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #2871ad;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.scrollable-content {
+  overflow-y: auto;
+  max-height: 90vh; /* Ajustez cette valeur selon vos besoins */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.completion-section {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  width: 70%;
+}
+.proo{
+  background-color: white;
+}

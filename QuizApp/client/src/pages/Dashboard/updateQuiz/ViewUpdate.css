@@ -1,0 +1,40 @@
+
+
+.rhDash{
+    display: flex;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+   
+    background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+    text-shadow: 1px 0px 2px #8dc4f0;
+  }
+
+    .body_containeer {
+      flex: 1;
+      padding: 1rem;
+  
+      width: 80%;
+   
+      
+    }
+    .connn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-color: rgba(227, 218, 218, 0.5);
+      width:100%;
+      height: 95%;
+      display: center;
+      border-radius: 10px;
+    }
+   .containerr{
+    padding: 10px;
+    width: 100%;
+
+    max-height: 80vh; /* Restrict height to prevent overflow */
+    background: linear-gradient(30deg, #f9dee0, #efdac8bb, #0094f000, #a3d0fc);
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+   }

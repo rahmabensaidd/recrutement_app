@@ -1,0 +1,174 @@
+/* ResultCan.css */
+.conn{
+  overflow-y: hidden;
+  background-color: #f6f2f282;
+}
+/* Container for the results */
+.results-wrapper {
+  overflow: hidden; /* Hide overflow to keep the animation contained */
+  position: relative; /* Ensure the position is relative for the inner container */
+  width: 100%; /* Full width */
+  height: 100%; /* Adjust as needed */
+}
+
+/* Create a horizontal scrolling container */
+.results-container {
+  margin-top: 2%;
+  display: flex;
+  white-space: nowrap; /* Prevent wrapping of content */
+  position: absolute; /* Position it relative to the wrapper */
+  animation: scroll 20s linear infinite; /* Animation duration and type */
+  padding: 3px;
+  gap: 1;
+  transition: animation-play-state 0.3s; /* Smooth transition for pausing/resuming */
+}
+
+/* Style for each result card */
+.result-card {
+  position: relative; /* To position the button absolutely inside the card */
+  flex: 0 0 auto; /* Prevent cards from shrinking */
+  min-width: 180px; /* Adjust the width of the cards */
+  padding: 1px;
+  background-color: rgb(242, 240, 230);
+  border: 1px solid #dddddd05; /* Border around the cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.064); /* Shadow for a slight elevation effect */
+  transition: transform 0.3s; /* Smooth scaling effect */
+  margin-right: 10px; /* Spacing between cards */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Ensure the button doesn't overflow */
+}
+
+/* Scale up on hover */
+.result-card:hover {
+  transform: scale(1.05);
+  background-color: rgba(47, 47, 48, 0.146);
+}
+
+/* Style for the rounded red button */
+.view-quiz-button {
+  position: absolute;
+  background-color:  rgb(233, 8, 57);;
+  color: white;
+  border: none;
+  border-radius: 50px; /* Rounded pill shape */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 14px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  transition: opacity 0.3s ease; /* Smooth appearance transition */
+  text-align: center; /* Center text in the button */
+}
+
+/* Show the button in the middle of the card on hover */
+.result-card:hover .view-quiz-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the button */
+}
+
+/* Animation for horizontal scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End off-screen to the left */
+  }
+}
+/* Style for the bottom row of divs */
+.bottom-row {
+  display: flex; /* Flex container for horizontal alignment */
+  justify-content: space-between; /* Space between the divs */
+  margin-top: 17%;
+  height: 50%; /* Space above the bottom row */
+
+}
+
+.bottom-div {
+  flex: 1;
+  margin-top: 0%;
+  margin-right: 1%;
+  margin-left:4%;
+  background: linear-gradient(to left, #f9bc5bb9 0%, #1196d828 50%, #f9bc5bb0 100%);
+
+
+
+
+
+
+
+
+
+
+
+
+  padding: 20px;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.week-results {
+  width: 100%; /* Assurez-vous que le slider occupe toute la largeur disponible */
+  /* Éviter le débordement */
+  margin-top: 0%;
+  padding: 50px 10px; /* Espacement autour du slider */
+  height:100%;
+
+}
+
+/* Styles pour les cartes de cette semaine */
+.week-card {
+  
+  width: 400px; /* Ajustez la largeur des cartes */
+ /* Ajustez la hauteur des cartes */
+height: 100%;
+  margin-left: 20%; /* Espacement horizontal entre les cartes */
+  background-color: rgb(242, 240, 230);
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: black;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+.newdiv{
+  padding:2px;
+}
+/* Appliquer un effet de survol */
+.week-card:hover {
+  transform: scale(1.05);
+  background-color: rgba(47, 47, 48, 0.146);
+}
+
+.view-quiz-buttonn {
+  position: absolute;
+  background-color:  rgb(233, 8, 57);
+  
+  color: white;
+  border: none;
+  border-radius: 50px; /* Rounded pill shape */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 14px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  transition: opacity 0.3s ease; /* Smooth appearance transition */
+  text-align: center; /* Center text in the button */
+}
+
+/* Show the button in the middle of the card on hover */
+.week-card:hover .view-quiz-buttonn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the button */
+}

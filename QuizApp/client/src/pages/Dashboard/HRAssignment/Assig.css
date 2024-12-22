@@ -1,0 +1,121 @@
+.col{
+    background-color: #f7f7f79d;
+    border-radius:10px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.container-fluid{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+   
+}
+.rhDash{
+    width :100%;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: white;
+    background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+    text-shadow: 1px 0px 2px #8dc4f0;
+  }
+ 
+  .tabble {
+    border-radius: 10px;
+    overflow: hidden;
+      width:100%;
+      background-color: #faf6f6;
+      color: #333;
+  }
+  
+  .thead {
+    background-color: #f1f1f1; /* Gray background color for table header */
+  }
+  
+  .tabble thead th {
+    color: #333; /* Optional: Make the text color darker for contrast */
+  }
+  
+  .tabble tbody tr {
+    height: 30px; /* Adjust the height to make rows narrower */
+  }
+  
+  .tabble tbody td {
+    padding: 13px 10px; /* Adjust padding to make cells narrower */
+  }
+  
+  .tabble tbody tr:hover {
+    background-color: #f8f9fa; /* Light gray background color on hover */
+  }
+
+  .sidebar_container {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sidebar{
+    display: flex;
+    width: 14rem;
+    height: 90%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    border-radius:10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .table-container{
+    background-color: #eaedf0;
+    border-radius:10px;
+    
+  }
+  .lines_icon{
+    display: flex;
+    align-self: flex-end;
+    height: 2px;
+    border-radius: 5px;
+    padding: 4px;
+  }
+  
+  .profile{
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  }
+  
+  .profile>img{
+    width: 100%;
+  border-radius: 50%;
+  }
+  
+  .groups{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  .group{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  h3{
+    font-size: 1rem;
+    margin: 10px 0px 10px 0px
+  }
+  .table-container {
+    background-color: rgba(0, 0, 255, 0);
+  }
+  .table{
+    width:90%;
+  }

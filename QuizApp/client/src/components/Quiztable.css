@@ -1,0 +1,58 @@
+.col{
+    background-color: #f7f7f79d;
+    border-radius:10px;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.container-fluid{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+   
+}
+.rhDash{
+    display: flex;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: white;
+    background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+    text-shadow: 1px 0px 2px #8dc4f0;
+  }
+  .body_container {
+    flex: 1;
+  }
+
+  
+  .thead {
+    background-color: #f1f1f1; /* Gray background color for table header */
+  }
+  
+  
+  
+ 
+  .tabble-container{
+    height: 86%;
+    background-color: #a2b4c400;
+    border-radius: 10px;
+    padding: 2%
+  }
+  .position-bottom-left {
+      position: absolute;
+      bottom: 0;
+      left: 1;
+      margin: 20px; /* Ajustez la marge selon vos besoins */
+    }
+    .relative-container {
+      position: relative;
+    }
+  .dd-flex{
+    position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 80px;
+      margin-right: 100px;
+      margin-top: 150px;
+  }

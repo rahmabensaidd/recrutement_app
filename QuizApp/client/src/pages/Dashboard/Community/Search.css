@@ -1,0 +1,48 @@
+/* Search.css */
+.body_co {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.content-wrapper {
+ border-radius: 10px;
+  overflow-x: hidden;
+  margin-right: 1rem; /* Adjust the margin as needed */
+  background-color: rgba(0, 0, 255, 0);
+  max-width: 900px;
+  height: 760px;
+}
+
+.col {
+  position: relative;
+}
+
+.hi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 2%;
+}
+.recherche {
+  width: 370px; /* Adjust the width as needed */
+  position: sticky;
+  top: 0;
+}
+
+.tabble {
+
+  width: 95%;
+  margin:0%;
+  table-layout: fixed;
+}
+.table-container {
+  max-height:   380px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
+  overflow-y: auto;
+  background-color: hsla(0, 100%, 90%, 0.3);;
+  padding:0%;
+  overflow-x:hidden;
+
+}

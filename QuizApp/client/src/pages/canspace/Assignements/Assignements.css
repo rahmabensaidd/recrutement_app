@@ -1,0 +1,69 @@
+.canDash {
+  display: flex;
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+  color: white;
+  background: linear-gradient(120deg, #2871ad, #2871adb3, #2871ad68, #eef2f6a8);
+  text-shadow: 1px 0px 2px #8dc4f0;
+  height: 100vh; /* Ensure the container takes full viewport height */
+}
+
+.conn {
+  background-color: rgba(204, 204, 204, 0.548);
+  flex: 1; /* Allow this section to take up remaining space */
+  margin: 30px; /* Add margin around the container */
+  padding: 20px; /* Add padding inside the container */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.table {
+  width: 1000px; /* Ensure the table uses the full width */
+  border-collapse: collapse; /* Collapse borders for better appearance */
+}
+
+.table thead {
+  background-color: #343a40; /* Dark background for the table header */
+  color: white; /* White text for header */
+}
+
+.table th, .table td {
+  border: 1px solid #ddd; /* Bordure légère pour les cellules */
+  padding: 10px; /* Ajuste le padding pour un meilleur espacement */
+  text-align: left; /* Aligne le texte à gauche pour une meilleure lisibilité */
+  max-width: 10em; /* Estime la largeur pour permettre le retour à la ligne après environ 20 caractères */
+  word-break: break-word; /* Permet au texte de se casser pour éviter les débordements */
+  overflow-wrap: break-word; /* Assure que les mots longs se cassent */
+}
+
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for alternate rows */
+}
+
+.table tr:hover {
+  background-color: #d6d6d6; /* Highlight row on hover */
+}
+
+.tabble td {
+  word-break: break-word; /* Allow long words to break to prevent overflow */
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  gap: 20px; /* Add space between elements */
+}

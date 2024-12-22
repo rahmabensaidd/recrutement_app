@@ -1,0 +1,37 @@
+
+.rhDash{
+  width :100%;
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+  color: white;
+  background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+  text-shadow: 1px 0px 2px #8dc4f0;
+}
+
+.tabble {
+  border-radius: 10px;
+  overflow: hidden;
+    width:100%;
+    background-color: #faf6f6;
+    color: #333;
+}
+
+.thead {
+  background-color: #f1f1f1; /* Gray background color for table header */
+}
+
+.tabble thead th {
+  color: #333; /* Optional: Make the text color darker for contrast */
+}
+
+.tabble tbody tr {
+  height: 30px; /* Adjust the height to make rows narrower */
+}
+
+.tabble tbody td {
+  padding: 13px 10px; /* Adjust padding to make cells narrower */
+}
+
+.tabble tbody tr:hover {
+  background-color: #f8f9fa; /* Light gray background color on hover */
+}
+

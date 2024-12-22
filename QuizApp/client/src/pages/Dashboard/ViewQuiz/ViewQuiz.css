@@ -1,0 +1,166 @@
+
+
+.body_containeer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  height: 100vh; /* Make it take the full height of the viewport */
+}
+
+
+
+.containerr {
+  background-color: white; /* Or any other background color you prefer */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for a nice effect */
+  max-width: 600px; /* Set a max-width for the container */
+  width: 100%; /* Ensure it takes the full width up to max-width */
+}
+
+.quiz-header,
+.progress-bar,
+.question-container,
+.options-container {
+  margin-bottom: 20px;
+}
+
+
+.rhDash{
+    display: flex;
+
+    background: linear-gradient(120deg,  #2871ad,  #2871adb3,#2871ad68, #eef2f6a8);
+  
+  }
+  .body_containeer {
+    flex: 1;
+    padding: 1rem;
+
+    width: 80%;
+    
+  }
+  .connn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(227, 218, 218, 0.5);
+    width:100%;
+    height: 95%;
+    display: center;
+    border-radius: 10px;
+  }
+ 
+  
+  .quiz-header {
+    display: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .timer {
+    background-color: #ffffff00; /* Greyish background for timer */
+    color: #ffffff; /* White text */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .progress-bar {
+    background-color: #bfd7e3; /* Light grey background for progress bar */
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .progress-bar > div {
+    background-color: #158fb8cf; /* Blue progress bar color */
+    height: 100%;
+  }
+  
+  .question-container {
+     
+    margin-right: 11px;
+    background-color: #ffffff; /* Greyish background for timer */
+    color: #ffffff; /* White text */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color :black;
+   
+  }
+  
+  
+  .title{
+    background-color: rgba(35, 190, 221, 0.755);
+    border-radius: 4%;
+  }
+  
+  .options-container {
+    margin-bottom: 1rem;
+   
+  }
+  
+  .option {
+    margin-bottom: 1 rem;
+    background-color: #ffffff; /* Greyish background for timer */
+    color: #000000; /* White text */
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    margin: 1rem ;
+  }
+  .next-button {
+    background-color: rgba(26, 179, 213, 0.89); /* Blue button */
+    color: #ffffff; /* White text */
+    padding: 0.5rem 1rem; /* Adjusted padding for smaller button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    /* Align button to the right */
+    position: relative;
+    bottom: 10px;
+     left:500px
+  }
+  
+  .next-button:hover {
+    background-color:rgb(36, 161, 215); /* Darker shade of blue on hover */
+  }
+  .conn{
+    background-color: #f7f7f79d;
+    border-radius:10px;
+    margin-top: 40px;
+    width: 100%;
+    height:90%;
+    padding-left: 20%;
+    padding-top: 8%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .option {
+    margin-bottom: 10px; /* Adjust spacing between options */
+    padding: 10px; /* Add padding for better visual separation */
+  }
+  
+  .option-number {
+    display: inline-block;
+    width: 30px; /* Adjust size of the number box */
+    height: 30px; /* Adjust size of the number box */
+    border: 1px solid rgba(13, 121, 135, 0.505);
+    text-align: center;
+    margin-right: 10px; 
+    border-radius: 3px;/* Adjust spacing between number and text */
+  }
+  
+  .option-text {
+    display: inline-block;
+    vertical-align: top; /* Align text with numbers */
+  }
+  
+  .correct {
+    background-color: rgba(17, 178, 214, 0.89); /* Style for correct option */
+    color: white; /* Text color for correct option */
+  }
+  

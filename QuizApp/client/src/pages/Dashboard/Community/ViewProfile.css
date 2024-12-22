@@ -1,0 +1,178 @@
+/* ViewProfile.css */
+
+.rhDash {
+  display: flex;
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+  color: white;
+  background: linear-gradient(120deg, #2871ad, #2871adb3, #2871ad68, #eef2f6a8);
+  text-shadow: 1px 0px 2px #8dc4f0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bodyy_container {
+ width:100%;
+  overflow-y: auto;
+  padding: 2%;
+}
+
+.proo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  padding: 38px;
+   
+
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+
+.profile-pic {
+
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151414;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-pic-wrapper {
+  position: relative;
+  justify-content: center;
+  
+  border-radius: 50%;
+  align-items: center;
+}
+
+.header {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name-section,
+.contact-section {
+  margin: 0;
+  text-align: left;
+}
+
+.description {
+  grid-column: 1 / 2;
+  background-color: #adc6da42;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.languages-skills {
+  grid-column: 2 / 3;
+  background-color: #74a6cf60;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.des {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4px;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #c9d8f61f;
+}
+
+.language-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.proficiency-bar {
+  height: 10px;
+  width: 100px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.proficiency-fill {
+  height: 100%;
+  background-color: #0780ca;
+  border-radius: 5px 0 0 5px;
+}
+
+.h {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 10px;
+  padding: 6px;
+  background-color: #c9d8f61f;
+}
+
+.training {
+  grid-column: 1 / 2;
+  background-color: #74a6cf60;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.links {
+  grid-column: 2 / 3;
+  background-color: #bbcedd54;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lan {
+  background-color: #bed3e281;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 10px;
+}
+
+.profile-container {
+  background-color: rgba(210, 213, 234, 0.238);
+  border-radius: 10px;
+  padding: 20px;
+  position: sticky;
+  top: 6%;
+}
+
+.lo {
+  background-color: #bed3e281;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* Additional improvements */
+.header p {
+  margin: 0;
+}
+
+.description p,
+.lan p {
+  margin: 0;
+}
+
+button.btn-success {
+  background-color: #4caf50;
+  border-color: #4caf50;
+  color: white;
+}
+
+button.btn-success:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}

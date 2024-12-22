@@ -1,0 +1,65 @@
+.coll{
+  max-width: 120px;
+  height :580px;
+  margin-top: 0%;;
+  background: linear-gradient(to right, #fbe3c9fb 0%, #a4d9f428 50%, #408fc8c8 100%);
+  border-radius: 10px;
+  margin-right: 3%;
+  
+}
+
+
+.scrolling-content {
+  max-height: 600px; /* Set a fixed height for scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 16px; /* Optional: Add some padding */
+}
+
+.scrolling-content .row {
+  display:flexbox; /* Ensure the cards are aligned in a row */
+  flex-wrap: wrap; /* Allow wrapping to multiple rows */
+}
+
+.scrolling-content .col {
+  flex: 1 0 21%; /* Adjust this to control card width (4 cards per row if possible) */
+  margin-bottom: 50px; /* Space between rows of cards*/
+   padding: 0%;
+  background-color: #fbe3c900;
+  max-width: 200px;
+
+}
+.card-img {
+  height: 120px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+.card-container {
+ 
+ 
+  margin-top: 0;
+  position: relative;
+  overflow: hidden; /* Ensures that the button stays within card bounds */
+}
+
+/* Button styling that appears on hover */
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #e40c58; /* Primary button color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 5px 20px;
+  margin-bottom: 100%;
+  margin-left:0px;
+  margin-top: 3px;
+  border-radius: 10px;
+  opacity: 0;
+
+}
+
+/* Show button when card is hovered */
+.card-container:hover .card-btn {
+  opacity: 1;
+  background-color: #e40c58;
+  
+}
